@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convertidor de Unidades</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Convertidor de Unidades</h1>
+    <div class="input-section">
+      <label for="fromUnit">Desde:</label>
+      <select id="fromUnit">
+        <option value="metros">Metros</option>
+        <option value="centimetros">Centímetros</option>
+        <option value="pies">Pies</option>
+        <option value="pulgadas">Pulgadas</option>
+      </select>
+      <input type="number" id="inputValue">
+    </div>
+    <div class="output-section">
+      <label for="toUnit">A:</label>
+      <select id="toUnit">
+        <option value="metros">Metros</option>
+        <option value="centimetros">Centímetros</option>
+        <option value="pies">Pies</option>
+        <option value="pulgadas">Pulgadas</option>
+      </select>
+      <p id="outputValue"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
